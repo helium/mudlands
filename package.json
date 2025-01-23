@@ -1,5 +1,5 @@
 {
-  "name": "@ironforge/mudlands",
+  "name": "@helium/mudlands",
   "version": "0.0.2",
   "description": "Discovers all IDLs ever published for a Solana program.",
   "main": "dist/src/mudlands.js",
@@ -45,7 +45,7 @@
     "@metaplex-foundation/rustbin": "^0.3.5",
     "@types/bn.js": "^5.1.2",
     "@types/debug": "^4.1.8",
-    "@types/node": "^20.6.2",
+    "@types/node": "^22.10.9",
     "debug": "^4.3.4",
     "depcheck": "^1.4.6",
     "esbuild": "^0.19.3",
