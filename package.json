@@ -1,8 +1,12 @@
 {
   "name": "@helium/mudlands",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Discovers all IDLs ever published for a Solana program.",
   "main": "dist/src/mudlands.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "types": "dist/src/mudlands.d.ts",
   "scripts": {
     "amman:start": "(cd test/anchor && amman start)",
